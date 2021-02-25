@@ -29,11 +29,77 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+
+.appbar {
+	background-color: #dfa811;	
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	box-shadow: 0 1px 24px 0 rgba(0, 0, 0, 0.75);
+	margin-bottom: 1rem;
+}
+
+.logo{
+  width: 5%;
+  margin: 0.5rem;
+}
+
+.subtitle{
+  align-self: center;
+  margin-left: 1rem;
+}
+
+/* a formação dos cards*/
+
+
+.form-card{
+  display:flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 35%;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.75);
+  border: none;
+  
+} 
+
+.form-card input[type=text] {
+  box-shadow: none;
+  border-bottom: none;
+}
+
+.form-card-title{
+  font-size: 1rem;
+  margin: 1rem;
+  border:none;
+}
+
+.autoresize{
+  font-family: 'Roboto', sans-serif;
+  font-size: auto;
+  resize:none;
+  border:none;
+}
+
+.card-container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.card{
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.75);
+  border: none;
+  background-color: var( rgba(255, 255, 0, 0.75));
+}
+
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
-
+  border:none;
   overflow: hidden;
 
   border-width: 0;
@@ -77,4 +143,7 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+} 
+
+
+
