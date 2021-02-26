@@ -31,7 +31,7 @@ body {
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
 
 .appbar {
-	background-color: #dfa811;	
+	background-color: #ecd551f8;	
 	display: flex;
 	flex-direction: row;
 	align-content: center;
@@ -40,13 +40,14 @@ body {
 }
 
 .logo{
-  width: 5%;
+  width: 7%;
   margin: 0.5rem;
 }
 
 .subtitle{
   align-self: center;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
+  font-size: 12px;
 }
 
 .form-card{
@@ -185,6 +186,7 @@ body {
 .card-rotation-1  {
   background-color: #abe9c1;
   transform: rotate(3deg);
+  
 }
 .card-rotation-2  {
   background-color: #ef89ba;
