@@ -67,7 +67,7 @@ body {
   font-family: 'Roboto', sans-serif;
   box-shadow: none;
   border-bottom: none;
-  font-size: auto;
+  font-size: 120%;
 }
 
 .form-card-title{
